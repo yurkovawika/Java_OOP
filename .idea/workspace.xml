@@ -4,18 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f62c070-04c7-49db-8392-c8d6156d3612" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="6f62c070-04c7-49db-8392-c8d6156d3612" name="Changes" comment="TextWork">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_2/HighSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_2/MiddleSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_2/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_2/Pupil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/petAnimal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/petAnimal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/petAnimal/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/petAnimal/petAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/wildAnimal/Stork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/wildAnimal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/wildAnimal/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Work_2/Animals/wildAnimal/wildAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Work_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Work_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Work_1/Product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Work_1/Product/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +40,36 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java_OOP" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KHVazjXMDg66j6RSfgcCqF4AvU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,11 +77,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer NITRO 5/IdeaProjects/Java_OOP/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Acer NITRO 5\IdeaProjects\Java_OOP\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Work_2.Animals.Program">
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Work_2.Animals.Menu" />
+      <module name="Java_OOP.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Work_2.Animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_2.Program" />
+      <module name="Java_OOP.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work_2.Animals.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Work_2.Animals.Program" />
+      <module name="Java_OOP.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Work_2.Animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Work_2.Animals.Menu.main" />
+      <module name="Java_OOP.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Work_2.Animals.Menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Work_2.Animals.Menu.main" />
+      <module name="Java_OOP.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Work_2.Animals.Menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Menu" />
+        <item itemvalue="Application.main (1)" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Work_2.Animals.Program" />
+        <item itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,8 +182,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673631566232</updated>
-      <workItem from="1673631568374" duration="33000" />
+      <workItem from="1673631568374" duration="349000" />
+      <workItem from="1673881485922" duration="3691000" />
+      <workItem from="1673931477907" duration="8278000" />
+      <workItem from="1673943885231" duration="18466000" />
+      <workItem from="1674025300765" duration="1272000" />
+      <workItem from="1674031793442" duration="14263000" />
+      <workItem from="1674047129287" duration="1739000" />
+      <workItem from="1674117281429" duration="17573000" />
     </task>
+    <task id="LOCAL-00001" summary="Work_1">
+      <created>1673631671765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673631671765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TextWork">
+      <created>1673631859444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673631859445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -66,5 +221,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Work_1" />
+    <MESSAGE value="TextWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="TextWork" />
   </component>
 </project>

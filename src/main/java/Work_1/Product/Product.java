@@ -17,4 +17,8 @@ public class Product {
     public String toString() {
         return String.format("Name: %s; price: %.2f; count: %d; unit: %s", name, price, count, unit);
     }
+    public static Integer Allcount = 0;
+    public void ChekCount (){
+        Allcount++;
+    }
 }

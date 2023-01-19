@@ -14,8 +14,11 @@ public class Main {
         Diaper diaper = new Diaper("'DiaperForBaby'", 5.99f, 1, "pieces", 1, "yes", 1, 2500, 6500, "1-3");
         Pacifier pacifier = new Pacifier("'NyamNyam'", 1f, 10, "pieces", 1, "yes");
 
-        Product[] products = new Product[]{milk, lemonade, bread, egg, mask, paper, diaper, pacifier};
-        for (Product product : products)
-            System.out.println(Program.printInfo(product));
+//        Product[] products = new Product[]{milk, lemonade, bread, egg, mask, paper, diaper, pacifier};
+//        for (Product product : products)
+//            System.out.println(Program.printInfo(product));
+
+        System.out.println(Program.printInfo(milk));
+
     }
 }
