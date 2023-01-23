@@ -14,9 +14,7 @@ public class Triangle extends Polygon {
             return new Triangle(side_one, side_two, side_three);
         } else
             System.out.println("The triangle does not exist. Enter three side again: ");
-        int side1 = sc.getInput();
-        int side2 = sc.getInput();
-        return creatTriangle(side1, side2, sc.getInput(), sc);
+        return creatTriangle(sc.getInput(), sc.getInput(), sc.getInput(), sc);
     }
 
     @Override

@@ -23,32 +23,32 @@ public class ExeptionsMenu {
 
     }
 
-    public void getRemoveFigure(CollectionFigures Figures, ExeptionsMenu sc) {
+    public void getRemoveFigure(CollectionFigures figures, ExeptionsMenu sc) {
         int choice = sc.getInput();
         try {
-            Figures.removeFigure(choice);
+            figures.removeFigure(choice);
             System.out.println("Figure removed");
         } catch (IndexOutOfBoundsException e) {
-            System.out.printf("Operation failed. Enter number from 1 to %d:\n", Figures.getSize());
-            getRemoveFigure(Figures, sc);
+            System.out.printf("Operation failed. Enter number from 1 to %d:\n", figures.getSize());
+            getRemoveFigure(figures, sc);
 
         }
     }
 
-    public void getReplaceFigure(CollectionFigures Figures, ExeptionsMenu sc) {
+    public void getReplaceFigure(CollectionFigures figures, ExeptionsMenu sc) {
         int choice = sc.getInput();
         try {
-            if (choice <= Figures.getSize()) {
-                Figures.setFigure(choice - 1, addFigures(sc));
+            if (choice <= figures.getSize()) {
+                figures.setFigure(choice - 1, addFigures(sc));
                 System.out.println("Figure replaced");
-            } else if (choice > Figures.getSize() - 1) {
+            } else if (choice > figures.getSize() - 1) {
                 System.out.println("The number is  uncorrected.Try again:");
-                getReplaceFigure(Figures, sc);
+                getReplaceFigure(figures, sc);
             }
 
         } catch (IndexOutOfBoundsException e) {
-            System.out.printf("Operation failed. Enter number from 1 to %d:\n", Figures.getSize());
-            getReplaceFigure(Figures, sc);
+            System.out.printf("Operation failed. Enter number from 1 to %d:\n", figures.getSize());
+            getReplaceFigure(figures, sc);
         }
     }
 }

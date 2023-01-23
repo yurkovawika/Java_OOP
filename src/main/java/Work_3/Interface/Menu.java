@@ -5,7 +5,7 @@ import Work_3.Figures.*;
 public class Menu {
 
     public static void MenuFigure() {
-        CollectionFigures Figures = new CollectionFigures();
+        CollectionFigures figures = new CollectionFigures();
         ExeptionsMenu sc = new ExeptionsMenu();
         while (true) {
             System.out.println();
@@ -21,44 +21,44 @@ public class Menu {
             int BigChoice = sc.getInput();
             switch (BigChoice) {
                 case 1://Посмотреть информацию о всех фигурах
-                    System.out.printf("At the moment there are %d figures:\n", Figures.getSize());
-                    Figures.getInfo();
+                    System.out.printf("At the moment there are %d figures:\n", figures.getSize());
+                    figures.getInfo();
                     break;
                 case 2://Просмотреть информацию о конкретной фигуре
-                    if (Figures.getSize() <= 1) {
-                        System.out.printf("At the moment there are %d figures:\n", Figures.getSize());
-                        Figures.getInfo();
+                    if (figures.getSize() <= 1) {
+                        System.out.printf("At the moment there are %d figures:\n", figures.getSize());
+                        figures.getInfo();
                         break;
                     } else {
-                        System.out.printf("At the moment there are %d figures:\n", Figures.getSize());
+                        System.out.printf("At the moment there are %d figures:\n", figures.getSize());
                         System.out.print("Enter the number figure for info -->> ");
-                        Figures.indexInfo(sc.getInput());
+                        figures.indexInfo(sc.getInput());
                         break;
                     }
                 case 3://Добавить новую фигуру
-                    Figures.addFigure(addFigures(sc));
+                    figures.addFigure(addFigures(sc));
                     break;
                 case 4://Заменить фигуру в коллекции
-                    if (Figures.getSize() == 0) {
+                    if (figures.getSize() == 0) {
                         System.out.println("Operation failed. The list is empty.");
                         break;
                     } else {
-                        Figures.getInfo();
+                        figures.getInfo();
                         System.out.print("Enter number of the figure to replace -->> ");
-                        sc.getReplaceFigure(Figures, sc);
+                        sc.getReplaceFigure(figures, sc);
                         break;
                     }
                 case 5://Удалить фигуру
-                    if (Figures.getSize() == 0) {
+                    if (figures.getSize() == 0) {
                         System.out.println("Operation failed. The list is empty.");
                         break;
                     } else {
                         System.out.print("Enter the number of the figure to remove it -->> ");
-                        sc.getRemoveFigure(Figures, sc);
+                        sc.getRemoveFigure(figures, sc);
                     }
                     break;
                 case 6: //сортировка по площади фигуры;
-                    Figures.sorted();
+                    figures.sorted();
                     System.out.println("Сортировка завершена");
                     break;
             }
