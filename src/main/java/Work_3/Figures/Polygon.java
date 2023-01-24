@@ -9,6 +9,7 @@ public abstract class Polygon extends BasicFigure implements Perimeter {
         this.sides = sides;
     }
 
+
     public double getPerimeter() {
         double perimeter = 0;
         for (double side : this.sides) {

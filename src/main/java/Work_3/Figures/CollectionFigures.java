@@ -46,7 +46,7 @@ public class CollectionFigures implements InfoFigure {
     }
 
     public void sorted() {
-        Comparator maxArea = new MaxArea();
+        Comparator maxArea = new MaxAreaComporator();
         Collections.sort(figures, maxArea);
     }
 

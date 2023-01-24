@@ -4,9 +4,9 @@ import Work_3.Figures.*;
 
 public class Menu {
 
-    public static void MenuFigure() {
+    public static void MenuFigure()  {
         CollectionFigures figures = new CollectionFigures();
-        ExeptionsMenu sc = new ExeptionsMenu();
+        ExceptionsMenu sc = new ExceptionsMenu();
         while (true) {
             System.out.println();
             System.out.print("Menu:\n" +
@@ -68,7 +68,7 @@ public class Menu {
         }
     }
 
-    public static BasicFigure addFigures(ExeptionsMenu sc) {
+    public static BasicFigure addFigures(ExceptionsMenu sc)  {
 
         System.out.print("Enter the number of the figure you want to add:\n" +
                 "\t1. Circle;\n" +
@@ -84,7 +84,9 @@ public class Menu {
 
             case 2:
                 System.out.println("Enter two side for new Rectangle:");
+
                 return new Rectangle(sc.getInput(), sc.getInput());
+
 
             case 3:
                 System.out.println("Enter one side for new Square:");

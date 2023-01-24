@@ -7,23 +7,28 @@ import java.util.Scanner;
 
 import static Work_3.Interface.Menu.*;
 
-public class ExeptionsMenu {
+public class ExceptionsMenu {
 
-    public ExeptionsMenu() {
+    public ExceptionsMenu() {
     }
 
     public int getInput() {
         Scanner in = new Scanner(System.in);
         try {
-            return in.nextInt();
+            int num = in.nextInt();
+            if(num > 0){
+                return num;
+            }
+            else {System.out.println("Ошибка. Введите число > 0:");
+            return getInput();
+            }
         } catch (InputMismatchException e) {
             System.out.println("You didn't enter a number. Try again:");
             return getInput();
         }
-
     }
 
-    public void getRemoveFigure(CollectionFigures figures, ExeptionsMenu sc) {
+    public void getRemoveFigure(CollectionFigures figures, ExceptionsMenu sc) {
         int choice = sc.getInput();
         try {
             figures.removeFigure(choice);
@@ -35,7 +40,7 @@ public class ExeptionsMenu {
         }
     }
 
-    public void getReplaceFigure(CollectionFigures figures, ExeptionsMenu sc) {
+    public void getReplaceFigure(CollectionFigures figures, ExceptionsMenu sc) {
         int choice = sc.getInput();
         try {
             if (choice <= figures.getSize()) {
@@ -49,6 +54,8 @@ public class ExeptionsMenu {
         } catch (IndexOutOfBoundsException e) {
             System.out.printf("Operation failed. Enter number from 1 to %d:\n", figures.getSize());
             getReplaceFigure(figures, sc);
+        } catch (IncorrectSideException e) {
+            throw new RuntimeException(e);
         }
     }
 }
