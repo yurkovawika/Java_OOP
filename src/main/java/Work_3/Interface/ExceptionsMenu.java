@@ -54,8 +54,6 @@ public class ExceptionsMenu {
         } catch (IndexOutOfBoundsException e) {
             System.out.printf("Operation failed. Enter number from 1 to %d:\n", figures.getSize());
             getReplaceFigure(figures, sc);
-        } catch (IncorrectSideException e) {
-            throw new RuntimeException(e);
         }
     }
 }
